@@ -1,0 +1,175 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(238, 191, 4);
+    max-width: 1500px;
+}
+
+* {
+    margin: 0px;
+}
+header {
+    background-color: rgb(238, 191, 4);
+    background-image: linear-gradient(to right, rgb(238, 191, 4), rgb(74, 74, 245));
+
+}
+header > h1 {
+    font-size: 6vw;
+    text-align: center;
+    padding-top: 20px;
+    color: rgb(70, 42, 0);
+    text-shadow: 5px 5px 1px rgba(0, 0, 0, 0.322);
+    font-variant: small-caps;
+}
+header > p {
+    font-size: 2.5vw;
+    padding: 10px;
+    color: rgb(70, 48, 0);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h2.h2form {
+    font-size: 3.5vw;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: rgb(187, 2, 2);
+}
+h3.h3form {
+    font-size: 4vw;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: rgb(187, 2, 2);
+}
+
+span > P {
+    width: 200px;
+    font-size: 2.5vw;
+    padding: 10px;
+    color: rgba(75, 33, 4, 0.925);
+    text-align: center;
+    background-color: rgb(255, 123, 0);
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.562);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.lista {
+    color: white;
+    font-size: 2.5vw;
+    font-weight: bold;
+    text-shadow: 1px 2px 0px black;
+}
+.paragrafo {
+    color: rgb(85, 51, 1);
+    padding: 10px;
+    font-size: 2.5vw;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 1px 1px 0px black;
+
+}
+#h4 {
+    padding: 10px;
+    color: rgb(170, 46, 2);
+    font-size: 2.5vw;
+    font-family: 'Times New Roman', Times, serif;
+}
+section > p {
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    font-size: large;
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 0px 0px white;
+}
+#image1 {
+    background-image: url(imagens/background001.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: rgb(53, 53, 255);
+   
+}
+#image2 {
+    background-image: url(imagens/Smile1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    background-attachment: fixed;
+    background-color: rgb(53, 53, 255);
+}
+#image3 {
+    background-image: url(imagens/pattern002.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-shadow: 1px 1px 0px black;
+    background-attachment: fixed;
+}
+.div {
+    font-size: 2.5vw;
+    font-family: verdana;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+}
+.div3 {
+    color: rgb(221, 163, 5);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 2.5vw;
+    padding: 10px;
+}
+a:hover {
+    color: rgb(86, 86, 255);
+    text-decoration: underline;
+}
+a:active {
+    color: rgb(0, 26, 255);
+}
+a:visited {
+    color: black;
+    
+}
+p > a {
+    padding: 10px;
+    font-size: 2vw;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+} 
+#conteudo {
+    font-family: verdana;
+    font-weight: bold;
+    font-size: 2.5vw;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+    background-color: rgba(252, 206, 3, 0.418);
+    width: 400px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(imagens/Gucci2.jpg)
+}
+ article > p > strong {
+    color: rgb(199, 0, 0);
+    text-shadow: 1px 1px 0px white;
+}
+article > p > em {
+    color: rgb(16, 16, 211);
+    text-shadow: 1px 1px 0px white;
+}
+footer {
+    font-size: 2vw;
+    background-color: black;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
